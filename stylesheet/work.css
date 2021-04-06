@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #444;
+    background-color: #ccc;
+    line-height: 1.75;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+#wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    background-color: white; 
+    margin: 0 auto;
+    width: 85%;
+}
+
+.block {
+    width: 50%;
+    height: 1000px;
+}
+
+.block1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.block2 {
+    display: flex;
+    padding: 50px 80px;
+}
+
+.block2 .btn-container {
+    height: 20%;
+    color: #ccc;
+}
+
+.btn {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 3rem;
+    width: 9rem;
+    cursor: pointer;
+    background-color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    transition: 0.3s all ease-out;
+    outline: none;
+    letter-spacing: 3px;
+    color: #ccc;
+}
+
+
+span {
+    margin: 10px;
+
+}
+
+.btn:hover {
+   background-color: crimson;
+   color: white;
+   border: none;
+}
+
+.block2 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 6px;
+    position: relative;
+}
+
+.content h1::after {
+    background-color: #cccccc;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 120%;
+    width: 80px;
+}
+.block2 a {
+    text-decoration: none;
+    color: #555;
+}
+
+
+@media screen and (max-width: 1214px) {
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+
+    .block {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .block2 {
+        padding: 0;
+    }
+    
+    .content {
+        padding: 30px;
+    }
+
+     .content .btn-container {
+        height: unset;
+        margin-bottom: 50px;
+     } 
+    .content h1{
+        text-align: center;
+    }
+
+    .content h1::after {
+       content: unset;
+    }
+
+
+}

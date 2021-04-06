@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #444;
+    background-color: #ccc;
+    line-height: 1.75;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+#wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.block {
+    width: 50%;
+    height: 1000px;
+}
+
+.block1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.block2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.block2 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.block2 h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.block2 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.block2 li {
+    width: 13rem;
+    border: 1px #ccc solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 40px 0;
+    transition: 0.2s all ease-in;
+    cursor: pointer;
+    position: relative;
+}
+
+.block2 .line::after {
+    background-color: #cccccc;
+    content: '';
+    display: block;
+    height: 2.1em;
+    left: 50%;
+    position: absolute;
+    top: 100%;
+    width: 1px;
+}
+
+
+.block2 li:hover {
+    border: 1px #f05454 solid;
+    background-color: #f05454;
+    color: #ffffff;
+}
+
+.block2 a {
+    text-decoration: none;
+    color: #555;
+}
+
+.block2 .icon {
+    font-size: 1.5rem;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.block2 .icon:hover {
+    color: #f05454;
+    transition: 0.2s all ease-out;
+}
+
+@media screen and (max-width: 1010px) {
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .block {
+        max-width: 100%;
+        width: 100%;
+        height: 10%;
+    }
+
+}
