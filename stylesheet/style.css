@@ -55,7 +55,7 @@ body {
      object-fit: cover;
   overflow: hidden;
 }
-@media screen and (min-width: 1010px){
+@media screen and (min-width: 1510px){
   .block1 img {
   width: 100%;
   height: 100%;
@@ -173,7 +173,7 @@ body {
   transition: 0.2s all ease-out;
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1510px) {
   .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -190,7 +190,7 @@ body {
     height: 10%;
   }
 }
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1510px) {
   .footer {
     margin-top: 30px;
     margin-left: auto;
@@ -198,9 +198,10 @@ body {
     width: 330px;
   }
 }
-@media screen and (min-width: 1010px) {
+@media screen and (min-width: 1510px) {
 .footer {
-  margin-top: -100px;
+  position: sticky;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 330px;
