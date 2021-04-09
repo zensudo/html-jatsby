@@ -190,7 +190,7 @@ body {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    width: 300px;
+    width: 330px;
   }
 }
 @media screen and (min-width: 1010px) {
@@ -198,6 +198,6 @@ body {
   margin-top: -100px;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 330px;
 }
 /*# sourceMappingURL=style.css.map */
