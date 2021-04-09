@@ -12,6 +12,11 @@ body {
   font-size: 1.2rem;
   font-weight: 300;
   letter-spacing: 2px;
+  background-image: url(https://images.unsplash.com/photo-1588345921489-f61ad896c562?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
   background-color: #eee;
   margin: 0;
 }
