@@ -1,7 +1,7 @@
 # Website based on HTML & CSS for JATSBY.de
 
 
-Go to [Website](https://jatsby.de)
+Go directly to [Website](https://jatsby.de)
 
 
 ## Streamen:
@@ -21,11 +21,11 @@ YouTube ► [https://youtube.com/c/JATSBYMusic](https://youtube.com/c/JATSBYMusi
 
 ## Social-Media:
 
-► [https://instagram.com/jatsby_](https://instagram.com/jatsby_)​
+Instagram ► [https://instagram.com/jatsby_](https://instagram.com/jatsby_)​
 
-► [https://www.facebook.com/jatsby.de](https://www.facebook.com/jatsby.de)​
+Facebook ► [https://www.facebook.com/jatsby.de](https://www.facebook.com/jatsby.de)​
 
-► [https://twitter.com/jatsby_](https://twitter.com/jatsby_)
+Twitter ► [https://twitter.com/jatsby_](https://twitter.com/jatsby_)
 
 
 ## Site Preview:
